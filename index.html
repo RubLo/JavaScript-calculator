@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class='container'>
+        <div id='calculator'>
+            <!-- TITLE -->
+            <div id='title' class='text-center'>
+                <h5><b>ELECTRONIC CALCULATOR</b></h5>
+            </div>
+            <!-- ENTRY BOX -->
+            <div id='entrybox' >
+            	
+                <div class='text-right'>
+                    <p id='answer'></p>
+                </div>
+                <div class='text-left'>
+                    <p id='history'></p>
+                </div>
+                
+            </div>
+            
+            <!-- BUTTONS -->
+            <div id='buttons'>
+                <button id="reset" class='red' value='ac'>AC</button>
+                <button id="canc" class='red' value='ce'>CE</button>
+                <button id="div" class="operator" value='/'>&divide;</button>
+                <button class="operator" id="multipl" value='*'>x</button>
+                <button class="number" value='7'>7</button>
+                <button class="number" value='8'>8</button>
+                <button class="number" value='9'>9</button>
+                <button class="operator" value='-'>-</button>
+                <button class="number" value='4'>4</button>
+                <button class="number" value='5'>5</button>
+                <button class="number" value='6'>6</button>
+                <button class="operator" value="+">+</button>
+                <button class="number" value='1'>1</button>
+                <button class="number" value='2'>2</button>
+                <button class="number" value='3'>3</button>
+                <button class='invisible'>N</button>
+                <button id='zeroButton' value='0'>0</button>
+                <button id="point" value='.'>.</button>
+                <button id='equalButton' value='='>=</button>
+            </div>
+            <!-- end buttons -->
+        </div>
+        <!-- end calculator -->
+    </div>
+    <!-- end container -->
+    <footer id="footer" class="text-center">
+        <div class="container">
+            Designed & Coded by
+            <a href="#" target="_blank">
+        Ruben T.</a>
+        </div>
+    </footer>
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
